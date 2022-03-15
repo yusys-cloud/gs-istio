@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="189d1f65-9fd6-4021-a581-e029294088d6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-examples/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-examples/expose/expose-kiali.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-examples/microservice-examples-gateway.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging/fluentd-daemonset-elasticsearch-rbac.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging/logging-stack-8.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging/logging-stack-6.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1446" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logging/loop-counter.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-921">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#67#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="180">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/main_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service-b.default.svc.cluster.local</find>
+      <find>microservice-examples-ratelimit</find>
+      <find>external-sc-svc-b</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>external-sc-svc-c</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go142" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/proxy-wasm/main.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-b/go.mod" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-b/Dockerfile" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-a/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-b/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-c/Dockerfile" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-b/main2.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-header.yaml" />
+        <option value="$PROJECT_DIR$/proxywasm-hello/main.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/destination-rule-service-b.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-90-10.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-headers.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-timeout.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/destination-rule-service-b-circuitBreaker.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-fault-injection.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit-service.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/rate-limit-service.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global/rate-limit-microservice-examples-gateway.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global/microservice-examples-gateway-rate-limit.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global/microservice-examples-gateway-global-rate-limit.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/se-httpbin-ext.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/tools/sleep.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/se-sc-service-b.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/dr-sc-service-b.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-b-dr.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-b-vs.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-b-se.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/microservice-examples-gateway.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-a/main_test.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/traffic-management/expose/expose-kiali.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/expose/expose-kiali.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-c/main.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/microservice-examples-deployment.yaml" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-a/main.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/service-b/main.go" />
+        <option value="$PROJECT_DIR$/microservice-examples/README.md" />
+        <option value="$PROJECT_DIR$/logging/loop-output-logs.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gs-istio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gs-istio" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-examples" />
+      <recent name="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global" />
+      <recent name="$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit" />
+      <recent name="$PROJECT_DIR$/microservice-examples/service-b" />
+      <recent name="$PROJECT_DIR$/microservice-examples/service-c" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-examples/traffic-management/external-services" />
+      <recent name="$PROJECT_DIR$/microservice-examples" />
+      <recent name="$PROJECT_DIR$/microservice-examples/traffic-management" />
+      <recent name="$PROJECT_DIR$/microservice-examples/service-a" />
+      <recent name="$PROJECT_DIR$/microservice-examples/service-c" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gs-istio" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/yusys-cloud/gs-istio" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gs-istio" />
+      <working_directory value="$PROJECT_DIR$/microservice-examples/service-a" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/microservice-examples/service-a/main.go" />
+      <package value="github.com/yusys-cloud/gs-istio" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gs-istio" />
+      <working_directory value="$PROJECT_DIR$/microservice-examples/service-b" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/microservice-examples/service-b/main.go" />
+      <package value="github.com/yusys-cloud/gs-istio" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gs-istio" />
+      <working_directory value="$PROJECT_DIR$/microservice-examples/service-c" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/microservice-examples/service-c/main.go" />
+      <package value="github.com/yusys-cloud/gs-istio" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gs-istio" />
+      <working_directory value="$PROJECT_DIR$/microservice-examples/service-a" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/yusys-cloud/gs-service-a" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSVCBTimeout$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Test.TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 30m 28s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 36m 59s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 39m 33s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 40m 15s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 40m 35s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 42m 01s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.01.17 at 18h 42m 24s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.02.15 at 10h 39m 33s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.02.15 at 10h 39m 47s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSVCBTimeout_in_github_com_yusys-cloud_gs-service-a - 2022.02.15 at 10h 41m 03s.xml">
+      <configuration name="TestSVCBTimeout in github.com/yusys-cloud/gs-service-a" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1680" height="968" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2796093" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3270366" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39905548" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1286895" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit." />
+    <MESSAGE value="feat(wasme):add wasme demo" />
+    <MESSAGE value="feat(traffic):add traffic demo" />
+    <MESSAGE value="feat(traffic):add traffic-management demo" />
+    <MESSAGE value="feat(traffic):Add rate-limit" />
+    <MESSAGE value="feat(tools):Add curl" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(tools):Add curl" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/pkg/mod/github.com/tetratelabs/proxy-wasm-go-sdk@v0.16.0/proxywasm/entrypoint.go" />
+    <entry file="file://$PROJECT_DIR$/proxywasm-hello/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxywasm-hello/runtime-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxywasm-hello/go.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/go.sum">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go" />
+    <entry file="file:///usr/local/go142/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-b/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-b/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-c/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-b/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/pkg/mod/github.com/tetratelabs/proxy-wasm-go-sdk@v0.1.1/proxywasm/context.go" />
+    <entry file="file://$PROJECT_DIR$/proxywasm-hello/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global/rate-limit-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/global/microservice-examples-gateway-global-rate-limit.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-fault-injection.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-timeout-retries.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/tools/sleep.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/destination-rule-service-b-circuitBreaker.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-headers.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/rate-limit/service-b-local-rate-limit.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/destination-rule-service-b.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-c-vs.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-c-se.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/external-services/httpbin-ext-se.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/external-services/httpbin-ext-vs.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/external-services/sc-service-c-dr.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/traffic-management/vs-service-b-90-10.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-c/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#67#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/microservice-examples-deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-b/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/service-a/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#67#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/filebeat-kubernetes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/expose/expose-kiali.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/fluentd-daemonset-elasticsearch-rbac.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1069" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/fluentd-daemonset-elasticsearch-rbac.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/loop-counter.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/microservice-examples-gateway.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/logging-stack-6.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/logging-stack-8.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-examples/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: ServiceEntry
+metadata:
+  name: external-sc-svc-c
+spec:
+  hosts:
+    - external-sc-svc-c
+  addresses:
+    - 172.16.20.172
+  ports:
+    - number: 80
+      name: external-sc-svc-c
+      protocol: HTTP
+  location: MESH_EXTERNAL
+  resolution: STATIC
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: external-sc-svc-c
+  labels:
+    app: external-sc-svc-c
+    service: external-sc-svc-c
+spec:
+  ports:
+    - port: 80
+      name: http
+  selector:
+    app: external-sc-svc-c

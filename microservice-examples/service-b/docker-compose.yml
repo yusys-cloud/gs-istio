@@ -1,0 +1,6 @@
+version: '3'
+services:
+  gs-service-b:
+    image: yusyscloud/gs-service-b:v2
+    ports:
+      - 1002:1002

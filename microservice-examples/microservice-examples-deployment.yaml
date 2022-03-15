@@ -1,0 +1,154 @@
+##################################################################################################
+# service-a services
+##################################################################################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-a-deployment
+  labels:
+    app: service-a
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-a
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: service-a
+        version: v1
+    spec:
+      containers:
+        - name: gs-service-a
+          image: yusyscloud/gs-service-a
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 1001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-a
+  labels:
+    app: service-a
+    service: service-a
+spec:
+  ports:
+    - port: 1001
+      name: http
+  selector:
+    app: service-a
+---
+##################################################################################################
+# service-b services v1 v2
+##################################################################################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-b-v1-deployment
+  labels:
+    app: service-b
+    version: v1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: service-b
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: service-b
+        version: v1
+    spec:
+      containers:
+        - name: gs-service-b
+          image: yusyscloud/gs-service-b:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 1002
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-b-v2-deployment
+  labels:
+    app: service-b
+    version: v2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-b
+      version: v2
+  template:
+    metadata:
+      labels:
+        app: service-b
+        version: v2
+    spec:
+      containers:
+        - name: gs-service-b
+          image: yusyscloud/gs-service-b:v2
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 1002
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-b
+  labels:
+    app: service-b
+    service: service-b
+spec:
+  ports:
+    - port: 1002
+      name: http
+  selector:
+    app: service-b
+---
+##################################################################################################
+# service-c services
+##################################################################################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-c-deployment
+  labels:
+    app: service-c
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-c
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: service-c
+        version: v1
+    spec:
+      containers:
+        - name: gs-service-c
+          image: yusyscloud/gs-service-c
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 1003
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-c
+  labels:
+    app: service-c
+    service: service-c
+spec:
+  ports:
+    - port: 1003
+      name: http
+  selector:
+    app: service-c
