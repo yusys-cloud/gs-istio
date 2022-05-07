@@ -5,8 +5,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"net/http"
 	log "github.com/sirupsen/logrus"
+	"net/http"
 )
 
 func main() {
@@ -27,5 +27,5 @@ func main() {
 			"message": "pong",
 		})
 	})
-	router.Run(":1003")
+	router.Run(":2003")
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/tetratelabs/proxy-wasm-go-sdk/proxywasm"
 	"github.com/tetratelabs/proxy-wasm-go-sdk/proxywasm/types"
+	"log"
 )
 
 // Other examples can be found at https://github.com/tetratelabs/proxy-wasm-go-sdk/tree/v0.1.1/examples
@@ -45,6 +46,7 @@ func (ctx *httpHeaders) OnHttpRequestHeaders(numHeaders int, endOfStream bool) t
 
 // Override DefaultHttpContext.
 func (ctx *httpHeaders) OnHttpResponseHeaders(numHeaders int, endOfStream bool) types.Action {
+	log.Printf("dev wasm test-----")
 	if err := proxywasm.SetHttpResponseHeader("hello", "world"); err != nil {
 		proxywasm.LogCriticalf("failed to set response header: %v", err)
 	}

@@ -1,7 +1,7 @@
 # microservice-examples 微服务调用示例
-- 三个服务http远程调用 http://service-a:1001/api/a -> http://service-b:1002/api/b -> http://service-c:1003/api/c
+- 三个服务http远程调用 http://service-a:2001/api/a -> http://service-b:2002/api/b -> http://service-c:2003/api/c
 ``` 
-curl -i localhost:1001/api/a 
+curl -i localhost:2001/api/a 
 ```
 
 - service-b 两个版本 v1 v2
@@ -97,6 +97,7 @@ kubectl exec "$SOURCE_POD" -c sleep -- curl -sS http://service-b:1002/api/b
 ``` 
 docker build -t='yusyscloud/gs-service-a' . 
 docker build -t='yusyscloud/gs-service-b:v2' . 
+docker build -t='yusyscloud/gs-service-c' . 
 ```
 
 ## 

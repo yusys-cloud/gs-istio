@@ -4,7 +4,7 @@ Istio service mesh samples.
 - [proxywasm-hello](proxywasm-hello) examples of wasme
 - [microservice-examples](microservice-examples)  service-a -> service-b -> service-c
 - [logginng](logging) Fluentd / Elasticsearch / Kibana fluentd gather all the logs from the Kubernetes node's environment and append the proper metadata to the logs
-
+- [extauthz](extauthz) Ext Authz server implements the external server for the Envoy ext_authz filter as an example of integrating custom authorization system into Istio.
 ## Tinygo
 
 ```

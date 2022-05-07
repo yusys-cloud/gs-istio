@@ -11,8 +11,8 @@ import (
 )
 
 func TestSVCBTimeout(t *testing.T) {
-	log.Printf("Call uri[%v] StatusCode[%v]",1,"qwqw")
-	resp, err := http.Get("http://localhost:1001/api/timeout?second=5")
+	log.Printf("Call uri[%v] StatusCode[%v]", 1, "qwqw")
+	resp, err := http.Get("http://localhost:2001/api/timeout?second=5")
 	if err != nil {
 		log.Println(err.Error())
 	} else {

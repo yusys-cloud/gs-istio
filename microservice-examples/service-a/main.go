@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	//SVC_B string = "http://service-b:1002"
-	SVC_B string = "http://localhost:1002"
+	//SVC_B string = "http://service-b:2002"
+	SVC_B string = "http://localhost:2002"
 )
 
 func main() {
@@ -58,7 +58,7 @@ func main() {
 		c.JSON(code, msg)
 	})
 
-	router.Run(":1001")
+	router.Run(":2001")
 }
 
 func callB(msg string, uri string) (int, string) {

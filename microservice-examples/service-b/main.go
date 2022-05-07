@@ -6,15 +6,15 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"time"
-	log "github.com/sirupsen/logrus"
 )
 
 const (
-	SVC_C string = "http://service-c:1003"
+	SVC_C string = "http://service-c:2003"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 			"message": "pong",
 		})
 	})
-	router.Run(":1002")
+	router.Run(":2002")
 }
 
 func callC(msg string) (int, string) {

@@ -3,4 +3,4 @@ services:
   gs-service-a:
     image: yusyscloud/gs-service-a
     ports:
-      - 1001:1001
+      - 2001:2001

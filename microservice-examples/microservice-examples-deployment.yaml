@@ -25,7 +25,7 @@ spec:
           image: yusyscloud/gs-service-a
           imagePullPolicy: Always
           ports:
-            - containerPort: 1001
+            - containerPort: 2001
 ---
 apiVersion: v1
 kind: Service
@@ -36,7 +36,7 @@ metadata:
     service: service-a
 spec:
   ports:
-    - port: 1001
+    - port: 2001
       name: http
   selector:
     app: service-a
@@ -68,7 +68,7 @@ spec:
           image: yusyscloud/gs-service-b:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 1002
+            - containerPort: 2002
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -94,7 +94,7 @@ spec:
           image: yusyscloud/gs-service-b:v2
           imagePullPolicy: Always
           ports:
-            - containerPort: 1002
+            - containerPort: 2002
 ---
 apiVersion: v1
 kind: Service
@@ -105,7 +105,7 @@ metadata:
     service: service-b
 spec:
   ports:
-    - port: 1002
+    - port: 2002
       name: http
   selector:
     app: service-b
@@ -137,7 +137,7 @@ spec:
           image: yusyscloud/gs-service-c
           imagePullPolicy: Always
           ports:
-            - containerPort: 1003
+            - containerPort: 2003
 ---
 apiVersion: v1
 kind: Service
@@ -148,7 +148,7 @@ metadata:
     service: service-c
 spec:
   ports:
-    - port: 1003
+    - port: 2003
       name: http
   selector:
     app: service-c
