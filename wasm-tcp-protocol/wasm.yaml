@@ -1,0 +1,12 @@
+apiVersion: extensions.istio.io/v1alpha1
+kind: WasmPlugin
+metadata:
+  name: wasm-tcp-protocol
+  namespace: wasm
+spec:
+  selector:
+    matchLabels:
+      app: gs-tcp
+  # TODO(incfly): replace this with an ghcr image once the artificats are available.
+  #url: oci://ghcr.io/tetratelabs/wasm-rate-limiting:v1
+  url: http://172.16.20.172:8088/main.wasm

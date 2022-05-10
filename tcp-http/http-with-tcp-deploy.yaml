@@ -1,0 +1,83 @@
+################################################################################
+# gs-http service
+################################################################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gs-http
+  labels:
+    app: gs-http
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gs-http
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: gs-http
+        version: v1
+    spec:
+      containers:
+        - name: gs-http
+          image: yusyscloud/gs-http
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 2002
+              name: http-port
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gs-http
+  labels:
+    app: gs-http
+    service: gs-http
+spec:
+  ports:
+    - port: 2002
+      name: http
+  selector:
+    app: gs-http
+################################################################################
+# gs-tcp service
+################################################################################
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gs-tcp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gs-tcp
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: gs-tcp
+        version: v1
+    spec:
+      containers:
+        - name: gs-tcp
+          image: yusyscloud/gs-tcp
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 2001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gs-tcp
+  labels:
+    app: gs-tcp
+    service: gs-tcp
+spec:
+  ports:
+    - name: tcp
+      port: 2001
+  selector:
+    app: gs-tcp

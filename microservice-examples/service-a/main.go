@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	//SVC_B string = "http://service-b:2002"
-	SVC_B string = "http://localhost:2002"
+	SVC_B string = "http://service-b:2002"
+	//SVC_B string = "http://localhost:2002"
 )
 
 func main() {

@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gs-http-tcp-deployment
+  labels:
+    app: gs-http-tcp
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gs-http-tcp
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: gs-http-tcp
+        version: v1
+    spec:
+      containers:
+        - name: gs-tcp
+          image: yusyscloud/gs-tcp
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 2001
+              name: tcp-port
+        - name: gs-http
+          image: yusyscloud/gs-http
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 2002
+              name: http-port
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gs-http-tcp
+  labels:
+    app: gs-http-tcp
+    service: gs-http-tcp
+spec:
+  ports:
+    - port: 2001
+      name: tcp
+    - port: 2002
+      name: http
+  selector:
+    app: gs-http-tcp
+
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: my-gateway
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: gs-http-tcp-rule
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - my-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /a
+      route:
+        - destination:
+            host: gs-http-tcp
+            port:
+              number: 2002

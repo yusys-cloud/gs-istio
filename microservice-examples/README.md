@@ -17,6 +17,7 @@ curl -i localhost:2001/api/a
 ``` 
 kubectl -n istio-system get svc istio-ingressgateway
 ```
+curl -v 192.168.100.147:30778/api/a
 - 通过istio gateway访问 kiali
 ``` 
  k apply -f expose/expose-kiali.yaml 

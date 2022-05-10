@@ -1,0 +1,10 @@
+apiVersion: extensions.istio.io/v1alpha1
+kind: WasmPlugin
+metadata:
+  name: wasm2
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: service-a
+  url: oci://docker.io/yusyscloud/wasm-plugin-test
