@@ -37,6 +37,7 @@ type pluginContext struct {
 
 // Override types.DefaultPluginContext.
 func (p *pluginContext) NewHttpContext(contextID uint32) types.HttpContext {
+	proxywasm.LogCriticalf("wasm-rate-limiting---------------> NewHttpContext")
 	return &httpHeaders{contextID: contextID, pluginContext: p}
 }
 
@@ -70,12 +71,14 @@ func (ctx *httpHeaders) OnHttpRequestHeaders(int, bool) types.Action {
 		ctx.pluginContext.remainToken = 2
 		ctx.pluginContext.lastRefillNanoSec = current
 	}
+	proxywasm.LogCriticalf("wasm-rate-limiting---------------> OnHttpRequestHeaders")
+
 	proxywasm.LogCriticalf("Current time %v, last refill time %v, the remain token %v",
 		current, ctx.pluginContext.lastRefillNanoSec, ctx.pluginContext.remainToken)
 	if ctx.pluginContext.remainToken == 0 {
 		if err := proxywasm.SendHttpResponse(403, [][2]string{
 			{"powered-by", "proxy-wasm-go-sdk!!"},
-		}, []byte("rate limited, wait and retry."), -1); err != nil {
+		}, []byte("rate limited----2--, wait and retry."), -1); err != nil {
 			proxywasm.LogErrorf("failed to send local response: %v", err)
 			proxywasm.ResumeHttpRequest()
 		}

@@ -15,6 +15,11 @@ const (
 	//SVC_B string = "http://localhost:2002"
 )
 
+type Message struct {
+	Name    string
+	Content string
+}
+
 func main() {
 
 	router := gin.Default()
@@ -56,6 +61,13 @@ func main() {
 	router.GET("/api/se", func(c *gin.Context) {
 		code, msg := callB(msg, "http://external-sc-svc-c:80/sc-service-c/api/sc/c")
 		c.JSON(code, msg)
+	})
+
+	router.GET("/api/message/xml", func(c *gin.Context) {
+		c.XML(http.StatusOK, Message{"Join", "hello"})
+	})
+	router.GET("/api/message/json", func(c *gin.Context) {
+		c.JSON(http.StatusOK, Message{"Join", "hello"})
 	})
 
 	router.Run(":2001")

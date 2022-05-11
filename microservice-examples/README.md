@@ -11,6 +11,8 @@ curl -i localhost:2001/api/a
 - /api/header?label-user=groupA 设置svcA->svcB请求header值("label-user":"groupA")
 - /api/timeout?second=5 svcA->svcB过程中，B中sleep 5秒后返回
 - /api/test1 访问svcB无端口号，返回连接异常
+- /api/message/xml 返回xml格式消息对象
+- /api/message/json 返回json格式消息对象
 
 ## 外部访问
 - istio-gateway暴露端口查看

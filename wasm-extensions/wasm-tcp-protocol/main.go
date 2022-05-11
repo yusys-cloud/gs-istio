@@ -4,6 +4,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/tetratelabs/proxy-wasm-go-sdk/proxywasm"
 	"github.com/tetratelabs/proxy-wasm-go-sdk/proxywasm/types"
 )
@@ -20,7 +21,7 @@ type vmContext struct {
 
 // Override types.DefaultVMContext.
 func (*vmContext) NewPluginContext(contextID uint32) types.PluginContext {
-	proxywasm.LogInfo("===2===NewPluginContext!")
+	proxywasm.LogCriticalf("===2===NewPluginContext!")
 	return &pluginContext{counter: proxywasm.DefineCounterMetric("proxy_wasm_go.connection_counter")}
 }
 
@@ -61,7 +62,8 @@ func (ctx *networkContext) OnDownstreamData(dataSize int, endOfStream bool) type
 		return types.ActionContinue
 	}
 
-	proxywasm.LogInfof(">>>>>> downstream data received >>>>>>\n%s", string(data))
+	//proxywasm.ReplaceDownstreamData([]byte("test test\n"))
+	proxywasm.LogCriticalf(">>>>>> downstream data received >>>>>>\n%s", string(data))
 	return types.ActionContinue
 }
 
@@ -76,7 +78,7 @@ func (ctx *networkContext) OnUpstreamData(dataSize int, endOfStream bool) types.
 	if dataSize == 0 {
 		return types.ActionContinue
 	}
-
+	fmt.Println(123)
 	ret, err := proxywasm.GetProperty([]string{"upstream", "address"})
 	if err != nil {
 		proxywasm.LogCriticalf("failed to get upstream data: %v", err)
@@ -90,7 +92,7 @@ func (ctx *networkContext) OnUpstreamData(dataSize int, endOfStream bool) types.
 		proxywasm.LogCritical(err.Error())
 	}
 
-	proxywasm.LogInfof("<<<<<< upstream data received <<<<<<\n%s", string(data))
+	proxywasm.LogCriticalf("<<<<<< upstream data received <<<<<<\n%s", string(data))
 	return types.ActionContinue
 }
 
