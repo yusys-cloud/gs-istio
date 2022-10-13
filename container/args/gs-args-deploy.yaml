@@ -1,0 +1,44 @@
+################################################################################
+# gs-http service
+################################################################################
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gs-args
+  labels:
+    app: gs-args
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gs-args
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: gs-args
+        version: v1
+    spec:
+      containers:
+        - name: gs-args-read
+          image: yusyscloud/gs-args
+          imagePullPolicy: Always
+          command: ["/main"]
+          args: ["--name2=asdasd","--kind=read"]
+          volumeMounts:
+            - mountPath: /tmpdir
+              name: container-storage
+      initContainers:
+        - name: gs-args-write
+          image: yusyscloud/gs-args
+          imagePullPolicy: Always
+          command: ["/main"]
+          args: ["--name2=initContainers","--kind=write"]
+          volumeMounts:
+            - mountPath: /tmpdir
+              name: container-storage
+      volumes:
+        - name: container-storage
+          emptyDir:
+            medium: Memory
