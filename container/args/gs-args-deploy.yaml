@@ -25,7 +25,7 @@ spec:
           image: yusyscloud/gs-args
           imagePullPolicy: Always
           command: ["/main"]
-          args: ["--name2=asdasd","--kind=read"]
+          args: ["--content=asdasd","--kind=read"]
           volumeMounts:
             - mountPath: /tmpdir
               name: container-storage
@@ -34,7 +34,7 @@ spec:
           image: yusyscloud/gs-args
           imagePullPolicy: Always
           command: ["/main"]
-          args: ["--name2=initContainers","--kind=write"]
+          args: ["--content=initContainers","--kind=write"]
           volumeMounts:
             - mountPath: /tmpdir
               name: container-storage

@@ -6,23 +6,22 @@ import (
 	"flag"
 	"log"
 	"os"
-	"time"
 )
 
 func main() {
-	name := flag.String("name", "default-name-1", "--name=name1")
-	name2 := flag.String("name2", "default-name-2", "--name2=name2")
+	content := flag.String("content", "default-content-1", "--content=default-content-1")
+	fileName := flag.String("fileName", "config.json", "--fileName=config.json")
 
 	//kind : write or read
 	kind := flag.String("kind", "write", "--kind=write")
 
 	flag.Parse()
 
-	log.Println("cmd args:", *name, *name2, *kind)
+	log.Println("cmd args:", *content, *fileName, *kind)
 
-	fn := "/tmpdir/tmp-dat1"
+	fn := "/tmpdir/" + *fileName
 	if *kind == "write" {
-		d1 := []byte(*kind + "---" + *name)
+		d1 := []byte(*content)
 		err := os.WriteFile(fn, d1, 0644)
 		check(err)
 		log.Println("Write success", fn)
@@ -31,11 +30,10 @@ func main() {
 		check(err)
 		log.Println("Read file:", string(dat))
 	}
-
-	for i := 0; i < 5; i++ {
+	/*for i := 0; i < 5; i++ {
 		log.Println("times:", i)
 		time.Sleep(time.Second * 1)
-	}
+	}*/
 }
 
 func check(e error) {
